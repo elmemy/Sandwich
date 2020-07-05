@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD55D25A24B0F3870092D1FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD55D25924B0F3870092D1FE /* AppDelegate.swift */; };
+		AD55D25C24B0F3870092D1FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD55D25B24B0F3870092D1FE /* SceneDelegate.swift */; };
+		AD55D25E24B0F3870092D1FE /* SandwichesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD55D25D24B0F3870092D1FE /* SandwichesView.swift */; };
+		AD55D26024B0F38E0092D1FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD55D25F24B0F38E0092D1FE /* Assets.xcassets */; };
+		AD55D26324B0F38E0092D1FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD55D26224B0F38E0092D1FE /* Preview Assets.xcassets */; };
+		AD55D26624B0F38E0092D1FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD55D26424B0F38E0092D1FE /* LaunchScreen.storyboard */; };
+		AD55D26E24B0F9470092D1FE /* SandwichesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD55D26D24B0F9470092D1FE /* SandwichesModel.swift */; };
+		AD55D27124B111D70092D1FE /* SandwicheDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD55D27024B111D70092D1FE /* SandwicheDetailsView.swift */; };
+		AD55D27524B15DC40092D1FE /* SandwichCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD55D27424B15DC40092D1FE /* SandwichCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AD55D25624B0F3870092D1FE /* Sandwiches.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sandwiches.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD55D25924B0F3870092D1FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD55D25B24B0F3870092D1FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AD55D25D24B0F3870092D1FE /* SandwichesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichesView.swift; sourceTree = "<group>"; };
+		AD55D25F24B0F38E0092D1FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD55D26224B0F38E0092D1FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AD55D26524B0F38E0092D1FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD55D26724B0F38E0092D1FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD55D26D24B0F9470092D1FE /* SandwichesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichesModel.swift; sourceTree = "<group>"; };
+		AD55D27024B111D70092D1FE /* SandwicheDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwicheDetailsView.swift; sourceTree = "<group>"; };
+		AD55D27424B15DC40092D1FE /* SandwichCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD55D25324B0F3870092D1FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD55D24D24B0F3870092D1FE = {
+			isa = PBXGroup;
+			children = (
+				AD55D25824B0F3870092D1FE /* Sandwiches */,
+				AD55D25724B0F3870092D1FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD55D25724B0F3870092D1FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD55D25624B0F3870092D1FE /* Sandwiches.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD55D25824B0F3870092D1FE /* Sandwiches */ = {
+			isa = PBXGroup;
+			children = (
+				AD55D25924B0F3870092D1FE /* AppDelegate.swift */,
+				AD55D25B24B0F3870092D1FE /* SceneDelegate.swift */,
+				AD55D26F24B0F94F0092D1FE /* Sandwiches */,
+				AD55D25F24B0F38E0092D1FE /* Assets.xcassets */,
+				AD55D26424B0F38E0092D1FE /* LaunchScreen.storyboard */,
+				AD55D26724B0F38E0092D1FE /* Info.plist */,
+				AD55D26124B0F38E0092D1FE /* Preview Content */,
+			);
+			path = Sandwiches;
+			sourceTree = "<group>";
+		};
+		AD55D26124B0F38E0092D1FE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AD55D26224B0F38E0092D1FE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AD55D26F24B0F94F0092D1FE /* Sandwiches */ = {
+			isa = PBXGroup;
+			children = (
+				AD55D27324B152E80092D1FE /* View */,
+				AD55D27224B152E10092D1FE /* Model */,
+			);
+			path = Sandwiches;
+			sourceTree = "<group>";
+		};
+		AD55D27224B152E10092D1FE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AD55D26D24B0F9470092D1FE /* SandwichesModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AD55D27324B152E80092D1FE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AD55D25D24B0F3870092D1FE /* SandwichesView.swift */,
+				AD55D27024B111D70092D1FE /* SandwicheDetailsView.swift */,
+				AD55D27424B15DC40092D1FE /* SandwichCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD55D25524B0F3870092D1FE /* Sandwiches */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD55D26A24B0F38E0092D1FE /* Build configuration list for PBXNativeTarget "Sandwiches" */;
+			buildPhases = (
+				AD55D25224B0F3870092D1FE /* Sources */,
+				AD55D25324B0F3870092D1FE /* Frameworks */,
+				AD55D25424B0F3870092D1FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sandwiches;
+			productName = Sandwiches;
+			productReference = AD55D25624B0F3870092D1FE /* Sandwiches.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD55D24E24B0F3870092D1FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = ElMeMy;
+				TargetAttributes = {
+					AD55D25524B0F3870092D1FE = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = AD55D25124B0F3870092D1FE /* Build configuration list for PBXProject "Sandwiches" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD55D24D24B0F3870092D1FE;
+			productRefGroup = AD55D25724B0F3870092D1FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD55D25524B0F3870092D1FE /* Sandwiches */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD55D25424B0F3870092D1FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD55D26624B0F38E0092D1FE /* LaunchScreen.storyboard in Resources */,
+				AD55D26324B0F38E0092D1FE /* Preview Assets.xcassets in Resources */,
+				AD55D26024B0F38E0092D1FE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD55D25224B0F3870092D1FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD55D27524B15DC40092D1FE /* SandwichCell.swift in Sources */,
+				AD55D25A24B0F3870092D1FE /* AppDelegate.swift in Sources */,
+				AD55D25C24B0F3870092D1FE /* SceneDelegate.swift in Sources */,
+				AD55D26E24B0F9470092D1FE /* SandwichesModel.swift in Sources */,
+				AD55D25E24B0F3870092D1FE /* SandwichesView.swift in Sources */,
+				AD55D27124B111D70092D1FE /* SandwicheDetailsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AD55D26424B0F38E0092D1FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD55D26524B0F38E0092D1FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD55D26824B0F38E0092D1FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD55D26924B0F38E0092D1FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD55D26B24B0F38E0092D1FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Sandwiches/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Sandwiches/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ElMeMy.Sandwiches;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD55D26C24B0F38E0092D1FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Sandwiches/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Sandwiches/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ElMeMy.Sandwiches;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD55D25124B0F3870092D1FE /* Build configuration list for PBXProject "Sandwiches" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD55D26824B0F38E0092D1FE /* Debug */,
+				AD55D26924B0F38E0092D1FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD55D26A24B0F38E0092D1FE /* Build configuration list for PBXNativeTarget "Sandwiches" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD55D26B24B0F38E0092D1FE /* Debug */,
+				AD55D26C24B0F38E0092D1FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD55D24E24B0F3870092D1FE /* Project object */;
+}
